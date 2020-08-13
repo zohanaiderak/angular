@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basics';
+  getName(name){
+    alert(name);
+  }
 }
